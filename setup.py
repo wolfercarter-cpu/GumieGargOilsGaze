@@ -7,7 +7,7 @@ setup(
     py_modules=["col", "gaze"],
     include_package_data=True,
     package_data={
-        "oil_pkg": ["*.tcss"],  # Keeps your Textual CSS styling intact for editor.py
+        "oil_pkg": ["*.tcss"],
     },
     install_requires=[
         "textual",
