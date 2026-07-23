@@ -1,0 +1,33 @@
+Screen {
+    background: black;
+    border: heavy darkviolet;
+    layout: grid;
+    grid-size: 1 3;
+    grid-rows: 4 1fr 15%;
+    padding: 4;
+}
+
+#l1 {
+    background: darkviolet;
+    color: black;
+    width: 100%;
+    height: 100%;
+    content-align: center middle;
+    margin-bottom:1;
+
+}
+
+#s1 {
+    background: black;
+    color: darkviolet;
+    border: darkviolet;
+    width: 100%;
+    height:100%;
+    margin-top: 2;
+}
+
+#v1 {
+    border: heavy darkviolet;
+    background: black;
+    padding: 1;
+}
